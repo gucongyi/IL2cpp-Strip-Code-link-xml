@@ -1,0 +1,3 @@
+打AB，使用IL2cpp方式打包 unity会发生找不到对应的代码引用，从而发生裁剪
+解决：使用link.xml 防止裁剪
+放到Unity的Assets根目录下即可
